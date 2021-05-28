@@ -1,0 +1,24 @@
+.glav {padding-left: 320px;
+       vertical-align: top}
+.name {padding-left: 200px;
+       color: maroon}
+.video {text-align: center}
+.music {text-align: center;
+        width: 100 px;
+        height: 20 px}
+.logoQueen {background-image: url(/Queenpile/Queen.jpg)}
+.picture {text-align: center}
+a {
+color:#000000;
+text-decoration:none
+}
+.link {color: maroon;
+      text-decoration: underline;
+       font-weight: 1000}
+
+.hidden {display: none}
+.function show (details)
+{ var elem = document.getElementById(details); 
+  if (elem) 
+    elem.style.display = "block"}
+
